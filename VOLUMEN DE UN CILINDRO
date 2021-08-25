@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <math.h>
+int main(void){
+	
+	float V,R,H;
+	printf("VOLUMEN DE UN CILINDRO\n");
+	printf("INGRESE VAORES DE ALTURA \n");
+	scanf("%f",&H);
+	printf("INGRESE VALOR DE RADIO\n");
+	scanf("%f",&R);
+	V=M_PI*H*(R*R);
+	printf("EL VOLUMEN ES: %.2f",V);
+	return 0;
+	}
